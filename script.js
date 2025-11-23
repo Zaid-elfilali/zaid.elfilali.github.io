@@ -806,8 +806,8 @@ document.addEventListener('DOMContentLoaded', function() {
     1: {
         title: "Design and Validation of a Thermal Engine",
         image: [
-            "/images/project/1/the1.png",
-            "/images/project/1/the2.png"
+            "images/project/1/the1.png",
+            "images/project/1/the2.png"
         ],
         description: "Thermo-mechanical analysis and energy optimization – ANSYS, CATIA, SOLIDWORKS",
         fullDescription: "This project involved the comprehensive design and validation of a thermal engine with a focus on performance optimization, energy efficiency, and emission reduction. The design process incorporated advanced thermo-mechanical modeling techniques and careful material selection to enhance both durability and operational efficiency.",
@@ -846,8 +846,8 @@ document.addEventListener('DOMContentLoaded', function() {
     3: {
         title: "Automotive Diagnostics System",
         image: [
-            "/images/project/3/Preteus.PNG",
-            "/images/project/3/MPLab.PNG"
+            "images/project/3/Preteus.PNG",
+            "images/project/3/MPLab.PNG"
         ],
          description: "Microcontroller-Based Automotive Monitoring Project",
         fullDescription: "This project developed a comprehensive automotive diagnostics system using microcontroller technology. The system monitors various vehicle parameters in real-time, providing valuable insights into vehicle health and performance. It includes features for fault detection, performance analysis, and predictive maintenance alerts.",
@@ -866,9 +866,9 @@ document.addEventListener('DOMContentLoaded', function() {
     4: {
         title: "Design and Optimization of an ABS System (Anti-Lock Braking System)",
         image: [
-            "/images/project/4/ABS1.PNG",
-            "/images/project/4/valid.png",
-            "/images/project/4/ABS3.png"
+            "images/project/4/ABS1.PNG",
+            "images/project/4/valid.png",
+            "images/project/4/ABS3.png"
         ],
         description: "Mechanical design and structural analysis of an Anti-Lock Braking System",
         fullDescription: "This project involved the comprehensive design and optimization of an Anti-Lock Braking System (ABS) to enhance vehicle safety and braking efficiency. Using CATIA and SolidWorks for 3D modeling, and Abaqus for finite element analysis, the system was meticulously designed and optimized to deliver superior performance and reliability under real-world driving conditions.",
@@ -887,9 +887,9 @@ document.addEventListener('DOMContentLoaded', function() {
     5: {
         title: "Power Electronics Simulation Project – Study of Converters with PSIM",
         image: [
-            "/images/project/5/puial2.png",
-            "/images/project/5/puial3.png",
-            "/images/project/5/puial1.png"],
+            "images/project/5/puial2.png",
+            "images/project/5/puial3.png",
+            "images/project/5/puial1.png"],
         description: "#",
         fullDescription: "This project involved using PSIM simulation software to analyze the performance of various power electronic converters, including rectifiers, AC controllers, and choppers. Key parameters such as firing angles, inductance values, and load types were studied to interpret results and optimize converter operation. The work strengthened skills in electrical simulation, circuit analysis, and result interpretation using specialized simulation tools.",
         features: [
