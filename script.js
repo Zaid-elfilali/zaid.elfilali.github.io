@@ -2,76 +2,130 @@
 
 //------------------------------------------------------------------------
 
-// Experience data for modals
-const experienceData = {
+ // Project data for modals
+ const projectsData = {
     1: {
-        title: "Embedded Electronics Engineering Intern",
-        company: "ALTEN / Automotive & Advanced Systems",
-        period: "April 2025 - Present",
-        location: "Tetouan, Morocco",
+        title: "Design and Validation of a Thermal Engine",
         image: [
-            "images/experience/IMG_1340 - Copy.jpeg",
-            "https://i.vimeocdn.com/video/1510985502-457bb4107fb112e6ff57b8d3b0086408d892991569ee6fa9ffecc37f7a30f578-d?f=webp"
+            "images/project/1/the1.png",
+            "images/project/1/the2.png"
         ],
-        description: "Industrial automation and robotic system integration",
-        fullDescription: "During my placement at ALTEN, I participated in the development and validation of electronic and embedded systems for next-generation automotive projects. Initially joining the BCI PMO team, I contributed to project management and process optimization for the STELLANTIS program, supporting supplier selection, product development, and industrialization. I produced dashboards and KPIs, followed modification management, tracked PIV events (physical and digital), and handled logistics for development kits.<br />I received in-house training on change management (GDM), APQP, validation plans (PIV), V-cycle, CATIA V6, and PLM tools. <br />Later, I joined an advanced driver assistance system (ADAS) team for a German client (Stellantis), focusing on emergency braking systems (EBS) and blind spot detection (BSD). My key contributions included the analysis and interpretation of CAN bus communications for electronic safety systems. <br />This diverse experience deepened my knowledge of embedded electronics in the automotive sector and enhanced my skills in digital system validation and cross-functional collaboration.", 
-       responsibilities: [
-            "Monitored robustness and progress of electronic modules through all project phases",
-            "Analyzed supplier offers and supported product industrialization",
-            "Animated meetings, synthesized ratings/decisions with international teams",
-            "Created dashboards, tracked KPIs, managed retro-planning",
-            "Participated in analysis of CAN bus data for EBS and BSD modules",
-            "Contributed to quality/documentation reviews"
+        description: "Thermo-mechanical analysis and energy optimization – ANSYS, CATIA, SOLIDWORKS",
+        fullDescription: "This project involved the comprehensive design and validation of a thermal engine with a focus on performance optimization, energy efficiency, and emission reduction. The design process incorporated advanced thermo-mechanical modeling techniques and careful material selection to enhance both durability and operational efficiency.",
+        features: [
+            "Optimized thermal engine design for performance and efficiency",
+            "Advanced thermo-mechanical modeling and simulation",
+            "Material selection for enhanced durability",
+            "Innovative combustion and heat transfer technologies",
+            "Comprehensive simulation and validation processes",
+            "Compliance with industrial and environmental standards"
         ],
-        technologies: ["Advanced Driver-Assistance Systems (ADAS)", "Gestion des essais", "Testing", "Control Systems", "CAN Bus Analysis", "Project Management", "MATLAB & Simulink", "CANalyzer"],
-        achievements: [
-            "Facilitated cross-site communication, improving tracking efficiency",
-            "Enhanced the validation process with effective dashboard automation",
-            "Strengthened system reliability through data-driven analysis of safety modules "
-        ]
+        technologies: ["CATIA", "SolidWorks", "Abaqus", "ANSYS", "Thermal Analysis", "Material Science"],
+        liveDemo: "#",
+        github: "#"
     },
     2: {
-    title: "Design and Implementation of a Voltage-Current Curve Tracer",
-    company: "Abdelmalek Essaâdi University - FST of Tangier",
-    period: "April 2024 - June 2024",
-    location: "Tangier, Morocco",
-    image: [
-        "images/PFE/PFE2.jpg",
-        "images/PFE/PFE1.jpg", 
-        "images/PFE/PFE3.jpg",
-        "images/PFE/PFE5.jpg"
-    ],
-    description: "Development of a fault detection system through I-V curve analysis",
-    fullDescription: "As part of this final year degree project, I designed and built a voltage-current characteristic tracer for fault detection in electronic components and circuit boards. The system is based on an Arduino Nano microcontroller, an AD9833 signal generator, and a TFT screen to display the characteristic curves of the tested components. This project allowed me to deepen my skills in analog electronics, circuit design, and embedded programming.",
-    responsibilities: [
-        "Designed and simulated electronic circuits (amplification, measurement, offset)",
-        "Developed Arduino firmware for peripheral management and display",
-        "Performed hardware integration of components (TFT screen, AD9833 generator, relay)",
-        "Conducted experimental system validation via tests on various components",
-        "Wrote the technical report and presented the project to a university jury"
-    ],
-    technologies: [
-        "Arduino",
-        "Analog Electronics", 
-        "SPI",
-        "KiCad",
-        "C++",
-        "Op-Amps",
-        "AD9833",
-        "TFT Display"
-    ],
-    achievements: [
-        "Delivered a functional prototype with real-time I-V curve display",
-        "Effectively detected faults in components such as diodes and capacitors",
-        "Optimized the offset circuit for precise microcontroller measurement",
-        "Successfully validated the system by comparing healthy and faulty components"
-    ],
-    links: {
-        github: "https://github.com/yourusername/curve-tracer-project",
-        report: "documents/PFE_Report.pdf"
+        title: "Design of a Pressure Control System in a Hydraulic Circuit",
+        image: [
+            "images/project/2/aut1.png",
+            "https://www.chet-hydraulique.fr/t9/pub/installation-pompe-surface-eau-ville.jpg"
+        ],
+        description: "This project aims to design and simulate a hydraulic pressure control system using MATLAB/Simulink.",
+        fullDescription: "This project focused on the design and simulation of a sophisticated hydraulic pressure control system. Using MATLAB/Simulink, we modeled the system dynamics and implemented a PID controller to ensure stable and precise pressure regulation under various operating conditions. The system demonstrates excellent performance in maintaining desired pressure levels despite external disturbances.",
+        features: [
+            "Dynamic modeling of hydraulic systems",
+            "PID controller implementation for pressure regulation",
+            "Stability analysis under varying conditions",
+            "Real-time pressure monitoring and control",
+            "System performance optimization",
+            "Simulation validation with real-world parameters"
+        ],
+        technologies: ["MATLAB", "Simulink", "PID Control", "Hydraulic Systems", "System Dynamics", "Control Theory"],
+        liveDemo: "#",
+        github: "#"
+    },
+    3: {
+        title: "Automotive Diagnostics System",
+        image: [
+            "images/project/3/Preteus.PNG",
+            "images/project/3/MPLab.PNG"
+        ],
+         description: "Microcontroller-Based Automotive Monitoring Project",
+        fullDescription: "This project developed a comprehensive automotive diagnostics system using microcontroller technology. The system monitors various vehicle parameters in real-time, providing valuable insights into vehicle health and performance. It includes features for fault detection, performance analysis, and predictive maintenance alerts.",
+        features: [
+            "Real-time monitoring of vehicle parameters",
+            "Fault detection and diagnostic capabilities",
+            "Performance analysis and reporting",
+            "Predictive maintenance alerts",
+            "User-friendly interface for data visualization",
+            "Compatible with various vehicle systems"
+        ],
+        technologies: ["C/C++", "Assembly", "MPLAB X IDE", "PROTEUS", "PIC Microcontrollers", "Embedded Systems"],
+        liveDemo: "#",
+        github: "https://github.com/MOHAMEDDAGMOUMI97/Automotive_Diagnostic_System/tree/main"
+    },
+    4: {
+        title: "Design and Optimization of an ABS System (Anti-Lock Braking System)",
+        image: [
+            "images/project/4/ABS1.PNG",
+            "images/project/4/valid.png",
+            "images/project/4/ABS3.png"
+        ],
+        description: "Mechanical design and structural analysis of an Anti-Lock Braking System",
+        fullDescription: "This project involved the comprehensive design and optimization of an Anti-Lock Braking System (ABS) to enhance vehicle safety and braking efficiency. Using CATIA and SolidWorks for 3D modeling, and Abaqus for finite element analysis, the system was meticulously designed and optimized to deliver superior performance and reliability under real-world driving conditions.",
+        features: [
+            "3D modeling of ABS components using CATIA and SolidWorks",
+            "Finite element analysis for structural integrity",
+            "Optimization for enhanced braking performance",
+            "Safety and reliability validation",
+            "Compatibility with various vehicle types",
+            "Performance testing under different conditions"
+        ],
+        technologies: ["CATIA", "SolidWorks", "Abaqus", "Mechanical Design", "Finite Element Analysis", "Validation"],
+        liveDemo: "#",
+        github: "#"
+    },
+    5: {
+        title: "Power Electronics Simulation Project – Study of Converters with PSIM",
+        image: [
+            "images/project/5/puial2.png",
+            "images/project/5/puial3.png",
+            "images/project/5/puial1.png"],
+        description: "#",
+        fullDescription: "This project involved using PSIM simulation software to analyze the performance of various power electronic converters, including rectifiers, AC controllers, and choppers. Key parameters such as firing angles, inductance values, and load types were studied to interpret results and optimize converter operation. The work strengthened skills in electrical simulation, circuit analysis, and result interpretation using specialized simulation tools.",
+        features: [
+            "Simulation and comparative analysis of rectifiers, AC controllers, and choppers using PSIM",
+            "Study of electrical parameters—firing angles, inductance, and loads—to evaluate converter efficiency and behavior",
+            "Interpretation of simulation outcomes to optimize each converter’s performance and reliability",
+            "Enhanced expertise in circuit modeling and power electronics software"
+        ],
+        technologies: ["PSIM" , "Power Electronics" ,"Circuit Simulation","Electrical Engineering"],
+        liveDemo: "#",
+        github: "#"
+    },
+    6: {
+        title: "Design and Validation of a Single-Phase and Three-Phase Inverter",
+        image: [
+            "images/project/6/OND5.jpg",
+            "images/project/6/Doc1.jpg",
+            "images/project/6/OND6.jpg"
+        ],
+        description: "#",
+        fullDescription: "This project involved the comprehensive design, simulation, and validation of single-phase and three-phase inverters as part of a power electronics module. The main objective was to optimize inverter operation, analyze energy performance, and study load effects using both theoretical calculations and Simulink simulations. Various scenarios (classic control, PWM, inductance variation) enabled result comparison and system validation.",
+        features: [
+            "Optimized inverter design for improved efficiency and output signal quality",
+            "Advanced modeling and simulation of output voltage and current with Simulink, including RMS calculations and FFT spectral analysis",
+            "Comparative analysis of single-phase and three-phase versions, highlighting the impact of electric settings (inductance, control) on performance",
+            "Study of PWM control (Pulse Width Modulation) for loss reduction and improved system control",
+            "Simulation of inductance variation effects on current filtering and regularity",
+            "Compliance validation with industrial and electrical standards"
+        ],
+        technologies: ["Matlab", "Simulink", "FFT Analysis", "Power Electronic Engineering"],
+        liveDemo: "#",
+        github: "#"
     }
-}
 };
+
 
 // Experience Modal Functionality
 const experienceModal = document.getElementById('experienceModal');
